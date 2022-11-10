@@ -26,3 +26,13 @@ function generatePassword(){
 }
 
 
+  //validate input
+if(c=="n" && c2=="n" && c3=="n" && c4=="n"){
+  alert("you should select at least one character type");
+  return"";
+} 
+if(len<8  || len>128){
+  alert("the length of the password must be between 8-128")
+  return"";
+}
+ 
